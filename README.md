@@ -3,7 +3,7 @@ Raw data dumps from FCC Consumer Complaints Data - Unwanted Calls
 
 Excel file that pulls the database from https://opendata.fcc.gov/Consumer/Consumer-Complaints-Data-Unwanted-Calls/vakf-fz8e (OData V4 Endpoint) every 60 minutes into a raw data Excel spreadsheet to be used to manipulate filtering to generate fresh lists of unwanted call phone numbers for call blocking using RPI software/hardware.
 
-For those looking for a generic list please refer to phone_fcc.txt I have created a generic list that I have uploaded for it to plugged into your RPI call blocking software/hardware.
+For those who are just looking for a generic list, please look at the master folder I have created a text file with a list of phone numbers which you can plug into your RPI call blocker software/hardware named fcc_phonelist.txt that has pre-populated phone numbers.
 
 Please note, it's easier to whitelist numbers than to blacklist. To recompress the parted files into one individual file, please run the following command(s):
 
