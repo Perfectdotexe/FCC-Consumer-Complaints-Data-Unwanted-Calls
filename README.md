@@ -7,7 +7,7 @@ Excel file that pulls the database from https://opendata.fcc.gov/Consumer/Consum
 
 For those who are just looking for a generic list, please look at the master folder I have created a text file with a list of phone numbers which you can plug into your RPI call blocker software/hardware named fcc_phonelist.txt that has pre-populated phone numbers.
 
-Please note, it's easier to whitelist numbers than to blacklist. To recompress the parted files into one individual file, please run the following command(s):
+Please note, it's easier to allow list numbers than to deny list. To recompress the parted files into one individual file, please run the following command(s):
 
 Windows:
 copy /B input.z* output.zip
